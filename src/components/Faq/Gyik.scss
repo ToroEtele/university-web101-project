@@ -1,0 +1,92 @@
+.app__gyik-site
+{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1%;
+
+    background-color: var(--blue-color);
+
+    @media screen and (max-width: 900px) {
+        height: 100%;
+    }
+}
+
+.app__gyik-title
+{
+    align-self: center;
+    color: var(--blue-color);
+
+    margin-bottom: 2%;
+}
+
+.app__gyik-back
+{
+    :hover
+    {
+        background-color: var(--blue-color);
+        color: white;
+    }
+
+    @media screen and (max-width: 900px) {
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+}
+
+.app__gyik-container
+{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    .app__gyik-card
+    {
+        width: 60%;
+
+        display: flex;
+        align-self: center;
+        flex-direction: row;
+        align-items: center;
+
+        h3
+        {
+            font-family: 'Montserrat',Arial,sans-serif;
+            margin-bottom:2%;
+        }
+
+        svg
+        {
+            color: #f5c791;
+            font-size: 200%;
+
+            margin-right: 10%;
+        }
+
+        .app__gyik-text
+        {
+            width: 100%;
+
+            background-color: #3d435d;
+            color: #f5c791;
+
+            border-radius: 10px;
+            padding: 3%;
+        
+            @media screen and (max-width: 900px) {
+                margin-bottom: 10%;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            width: 80%;
+            margin-left: 5%;
+        }
+    }
+}

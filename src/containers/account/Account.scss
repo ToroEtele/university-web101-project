@@ -1,0 +1,211 @@
+.app__account
+{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--blue-color);
+
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: bolder;
+
+    overflow:hidden;
+
+    .app__account-back
+    {
+        text-decoration: none;
+        color:white;
+
+        margin-top: 1%;
+        margin-left: 1%;
+
+        :hover{
+            background-color: white;
+            color: var(--blue-color);
+        }
+
+    }
+
+    h1 {
+        color: white;
+        align-items: center;
+
+        @media screen and (max-width: 900px) {
+            font-size: 1.2rem;
+            margin-top: 10%;
+        }
+    }
+
+    .link
+    {
+        text-decoration: none;
+        color:white;
+        :hover
+        {
+            color: var(--blue-color);
+        }
+    }
+    
+    .app__account-forms-container
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        height: 90%;
+        width: 90%;
+        align-self: center;
+        padding: 2%;
+
+        .app__account-login
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+            height: 50%;
+            width: 30%;
+            
+        
+            border: 1px solid white;
+            border-radius: 15px;
+
+            @media screen and (max-width: 900px) {
+                width: 90%;
+                margin-top: 10%;
+            }
+        }
+        
+        .app__account-register
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            height: 100%;
+            width: 60%;
+        
+            border: 1px solid white;
+            border-radius: 15px;
+        
+            @media screen and (max-width: 900px) {
+                width: 90%;
+                margin-top: 10%;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        height: max-content;
+    }
+}
+
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 3%;
+}
+
+label 
+{
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+
+    margin: 1%;
+
+    @media screen and (max-width: 900px) {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+}
+
+select
+{
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 1px;
+    font-size: 1.2rem;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    
+    @media screen and (max-width: 900px) {
+        width: 50%;
+    }
+
+}
+
+.submit-button
+{
+    width: 200px;
+    height: 30px;
+
+    border-radius: 5px;
+    border: 1px;
+    border-color: transparent;
+
+    color: white;
+    background-color: #f5c791;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.horizontal-container 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    align-self: start;
+
+    padding-left: 3%;
+
+    margin-top: 2%;
+
+}
+
+.hor-text {
+    margin-bottom: -2%;
+
+    @media screen and (max-width: 900px) {
+        margin-bottom: 2%;
+        flex-direction: column;
+    }
+}
+
+#address {
+     width: 250%;
+
+    @media screen and (max-width: 900px) {
+        width: 94%;
+    }
+}
+
+#feltetel{
+    font-size: 1.2rem;
+
+    @media screen and (max-width: 900px) {
+        font-size: 0.7rem;
+    }
+}

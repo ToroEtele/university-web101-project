@@ -1,0 +1,9 @@
+export {default as Home} from './home/Home';
+export {default as Informations} from './informations/Informations';
+export {default as MoreInformation} from './informations/MoreInformation';
+export {default as News} from './news/News';
+export {default as Rules} from './rules/Rules';
+export {default as MoreRules} from './rules/MoreRules';
+export {default as Account} from './account/Account';
+export {default as Kapcsolat} from './contact/Contact';
+export {default as ANew} from './news/ANew';
